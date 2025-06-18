@@ -31,11 +31,13 @@ global-superstore/
 - Visualize data for better business decision-making
 - Derive actionable insights from the Global Superstore dataset
 
----
+
 
 **Dataset Overview**
+ Dataset was sourced from
+https://docs.google.com/spreadsheets/d/1nxESpFzWjlGDMGDVLH69xmDzIl9l60Eq/edit#gid=63 3280281   
+Global Superstore is an online store in New York, United States with a large number of customers in 147 countries and a wide range of products in 3 main categories namely: Office supplies, Furniture and Technology
 
-The Global Superstore dataset provides global sales, profit, and shipping data for an international retail company.
 
 **Key fields include:**
 - Order ID, Order Date, Ship Date
@@ -44,33 +46,32 @@ The Global Superstore dataset provides global sales, profit, and shipping data f
 - Sales, Profit, Quantity, Discount
 - Customer ID and Segment
 
-**Data Cleaning & Preparation**
-
-Performed using Power Query (in Power BI):
-- Removed duplicates and missing values
-- Transformed date formats
-- Created calculated columns (e.g., `Profit Margin`, `Shipping Duration`)
-- Standardized categorical values
-
-  Power BI Dashboard Features
+Data Cleaning & Preparation
+Performed using Power Query in Power BI:
+- Dataset was cleaned using Power Query. No duplicates was found. Year under review was 2014.  
+- Transformed date formats  
+- Created Measures (e.g., `Total profit`, `number of orders`, `Average Discount`, `Average Profit`)  
+- Standardized categorical values  
+ 
+  **Power BI Dashboard Features**
 - KPIs: Total Sales, Profit, Orders, and Customers
 - Sales and Profit by Region, Segment, and Category
 - Top 10 Products by Sales and Profit
 - Profitability over time
 - Interactive filters for Year, Country, Segment, and Category
 
- Key Insights
+**Key Insights**
 - High discounts negatively impact profit despite boosting sales
 - Technology is the most profitable product category
 - Consumer segment drives the highest revenue
 - Standard shipping performs better in terms of profitability
 
- Recommendations
+ **Recommendations**
 - Limit discounting on high-margin products
 - Improve shipping logistics in underperforming regions
 - Focus on top-selling products to drive profitability
 
- Future Enhancements
+ **Future Enhancements**
 - Incorporate external market data for benchmarking
 - Add predictive forecasting using Power BI AI visuals
 - Publish the dashboard to Power BI Service for broader access
